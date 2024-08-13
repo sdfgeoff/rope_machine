@@ -32,7 +32,7 @@ exit(0)
 EXPORT_SINGLE_FILENAME = "/tmp/export_single_stl.py"
 open(EXPORT_SINGLE_FILENAME, "w").write(EXPORT_SINGLE)
 
-MECHANICS_FOLDER = os.path.join(ROOT_FOLDER, "")
+MECHANICS_FOLDER = os.path.join(ROOT_FOLDER, "Mechanical")
 OUTPUT_FOLDER = os.path.join(ROOT_FOLDER, "stls")
 
 if not os.path.exists(OUTPUT_FOLDER):
