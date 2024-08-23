@@ -1,3 +1,4 @@
 *.FCBak
 *.pyc
 __pycache__
+.tup
